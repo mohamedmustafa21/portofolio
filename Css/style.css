@@ -1,0 +1,379 @@
+/* General style */
+
+body {
+    font-family: 'Nunito' , sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Nunito',sans-serif;
+}
+.main-color{
+    color: #e65f78 !important;
+}
+.main-background-color{
+    background-color: #e65f78 !important;
+}
+.section-subtitle{
+    max-width: 500px;
+}
+
+/* Home Style */
+#home{
+    background-image: url(../images/portfolio-background-header-53082_1080x675.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#home .nav-link {
+    color: black;
+}
+#home .nav-link:hover
+{
+    color: #e65f78;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h1{
+    font-size: 54px;
+}
+#home p {
+   color: rgba(255, 255, 255, 0.75);    
+}
+#home button{
+    border: 2px solid white;
+    padding: 10px 15px ;
+    border-radius: 30px;
+}
+#home button:hover {
+    color: black !important; 
+    background-color: white;
+}
+#home .seeting-icon{
+    top:20%;
+    background-color: #2b2424;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#home .up-icon{
+    right: 40px;
+    bottom: 30px;
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#home .down-icon{
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+     left: 50%;
+     transform: translateX(-50%);
+     bottom: 50px;
+     border-radius: 15px;
+     animation: scroll 3s ease-in-out infinite ;
+}
+#home .down-icon::after{
+    content:"" ;
+    width: 3px;
+    height: 10px;
+    background-color:white;
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-50%);
+    
+}
+#home .nav-item{
+    padding: 0 18px;
+}
+
+@keyframes scroll {
+    0%{
+        bottom: 50px;
+    }
+    10%{
+        bottom: 100px;
+    }
+    20%{
+        bottom: 50px;
+    }
+    30%{
+        bottom: 80px;
+    }
+    40%{
+        bottom: 50px;
+    }
+    50%{
+        bottom: 70px;
+    }
+    60%{
+        bottom: 50px;
+    }
+    70%{
+        bottom: 60px;
+    }
+    80%{
+        bottom: 50px;
+    }
+    90%{
+        bottom: 50px;
+    }
+    100%{
+        bottom: 50px;
+    }
+
+
+}
+ h1::after{
+     content: "";
+     animation: typing 15s linear infinite ; 
+     margin: auto;
+ }
+ @keyframes typing {
+     0% {
+         content: " M  |";
+     }
+     1%{
+         content: "Mu|"
+     }
+     2%{
+        content: "Muh|"
+    }
+    3%{
+        content: "Muha|"
+    }
+    3%{
+        content: "Muam|"
+    }
+    4%{
+        content: "Muhame|"
+    }
+    5%{
+        content: "Muhamed|"
+    }
+    6%{
+        content: "Muhamed M|"
+    }
+    7%{
+        content: "Muhamed Mu|"
+    }
+    8%{
+        content: "Muhamed Mus|"
+    }
+    9%{
+        content: "Muhamed Must|"
+    }
+    10%{
+        content: "Muhamed Musta|";
+    }
+    11%{
+        content: "Muhamed Mustaf|";
+    }
+    12%{
+        content: "Muhamed Mustafa|";
+    }
+    13%{
+        content: "Muhamed Mustaf|";
+    }
+    14%{
+        content: "Muhamed Musta|";
+    }
+    15%{
+        content: "Muhamed Must|";
+    }
+    16%{
+        content: "Muhamed Mus|";
+    }
+    17%{
+        content: "Muhamed Mu|";
+    }
+    18%{
+        content: "Muhamed M|";
+    }
+    19%{
+        content: "Muhamed|";
+    }
+    20%{
+        content: "Muhame|";
+    }
+    21%{
+        content: "Muham|";
+    }
+
+    22%{
+        content: "Muha";
+    }
+    23%{
+        content: "Muh|";
+    }
+    24%{
+        content: "Mu|";
+    }
+    25%{
+        content: "M|";
+    }
+    26%{
+        content: "|";
+    }
+    27%{
+        content: "F |";
+    }
+    28%{
+        content: "Fr |";
+    }
+    29%{
+        content: "Fro |";
+    }
+    30%{
+        content: "Fron |";
+    }
+    31%{
+        content: "Front |";
+    }
+    32%{
+        content: "Front E |";
+    }
+    33%{
+        content: "Front En |";
+    }
+    34%{
+        content: "Front End|";
+    }
+    35%{
+        content: "Front End D|";
+    }
+    36%{
+        content: "Front End De|";
+    }
+    37%{
+        content: "Front End Dev |";
+    }
+    38%{
+        content: "Front End Deve |";
+    }
+    39%{
+        content: "Front End Devel |";
+    }
+    40%{
+        content: "Front End Develo |";
+    }
+    41%{
+        content: "Front End Develop |";
+    }
+    42%{
+        content: "Front End Develope |";
+    }
+    43%{
+        content: "Front End Developer |";
+    }
+    44%{
+        content: "Front End Develope |";
+    }
+    45%{
+        content: "Front End Develop |";
+    }
+    46%{
+        content: "Front End Develo |";
+    }
+    47%{
+        content: "Front End Devel |";
+    }
+    48%{
+        content: "Front End Deve |";
+    }
+    49%{
+        content: "Front End Dev |";
+    }
+    50%{
+        content: "Front End De |";
+    }
+    51%{
+        content: "Front End D |";
+    }
+    52%{
+        content: "Front End |";
+    }
+    53%{
+        content: "Front En |";
+    }
+    54%{
+        content: "Front E |";
+    }
+    55%{
+        content: "Front |";
+    }
+    56%{
+        content: "Fron |";
+    }
+    57%{
+        content: "Fro |";
+    }
+    58%{
+        content: "Fr |";
+    }
+    59%{
+        content: "F |";
+    }
+    60%{
+        content: "|";
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+ }
+
+
+/* Services  */
+
+#service i{
+    font-size: 44px;
+}
+#service .line{
+    width: 15%;
+    height: 3px;
+    transition: .3s;
+}
+#service p {
+    line-height: 1.5;
+}
+#service .servcis-item{
+    border: 1px solid #e8e8e8;
+    padding: 0 4px;
+}
+#service .servcis-item:hover .line{
+  width: 40%;
+}
+
+
+/* Clinet  */
+
+
+#clint .clinet-item p {
+max-width: 750px;
+}
+.carousel-dark .carousel-indicators button{
+    background-color: #e65f78 !important;
+    height: 6px;
+}
+#clint .carousel-dark {
+    border: 2px solid #e65f78;
+    padding: 10px 5px;
+}
